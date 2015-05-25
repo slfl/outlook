@@ -37,7 +37,8 @@ a, a:hover, a:visited {
 .grass, .trees, .mountains, .aurora, .stars {
   max-width: 150%;
   position: absolute;
-  left: -25%;
+  left: -10%;
+  right: -10%;
 }
 
 .mountains, .trees, .grass, .mountains, .cat {
@@ -76,8 +77,8 @@ a, a:hover, a:visited {
 }
 
 .aurora {
-  min-height: 125%;
-  top: -100px;
+  min-height: 67%;
+  top: -150px;
   z-index: -9;
 }
 
@@ -85,7 +86,7 @@ a, a:hover, a:visited {
   width: 200%;
   min-height: 100%;
   z-index: -10;
-  background: url('http://data.monstercat.com/outlook/stars.jpg');
+  background: url('../images/stars.png');
 }
 
 .cover-page {
@@ -196,7 +197,7 @@ a, a:hover, a:visited {
   left: 50%;
   margin: -60px 0 0 -30px;
   position: absolute;
-  background: url('http://data.monstercat.com/outlook/gift.svg');
+  background: url('../images/gift.svg');
   background-size: 80%;
   background-position: center;
   background-repeat: no-repeat;

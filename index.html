@@ -1,0 +1,110 @@
+<!--
+	Copyright 2014 Mansi <slfl@mail.ru>
+	Рип сайта сделан Артуром Буяном.
+
+	Создание сайта www.MonsterCat.com
+
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Monstercat 015 - Outlook</title>
+		<link rel="stylesheet" href="css/outlook.css">
+		<link rel="stylesheet" href="css/sc-player-minimal.css">
+		<link rel="stylesheet" type="text/css" href="public/css/font-awesome.min.css">
+		<link rel="stylesheet" type="text/css" href="public/css/bootstrap.min.css">
+	</head>
+	<body>
+		<div id="container", class="box-container">
+			<ul id="scene", class="scene">
+				<li class="layer", data-depth="0.00">
+					<div class="stars"></div>
+				</li>
+				<li class="layer", data-depth="0.20">
+					<div class="aurora"><img src="images/aurora.png"></div>
+				</li>
+				<li class="layer", data-depth="0.40">
+					<div class="mountains"><img src="images/mountains.png"></div>
+				</li>
+				<li class="layer", data-depth="0.60">
+					<div class="trees"><img src="images/trees.png"></div>
+				</li>
+				<li class="layer", data-depth="0.80">
+					<div class="grass"><img src="images/grass.png"></div>
+				</li>
+				<li class="layer", data-depth="0.90">
+					<div class="cat"><img src="images/cat.png"></div>
+				</li>
+			</ul>
+		<div class="cover-page fade-in">
+			<div class="album-container">
+				<img src="http://data.monstercat.com/outlook/album-name.svg" class="album-name">
+				<img src="http://data.monstercat.com/outlook/art.jpg" class="album-art">
+				<div class="soundcloud-embed">
+					<div class="soundcloud-square">
+						<a href="https://soundcloud.com/monstercat/sets/monstercat-015-outlook" class="sc-player"></a>
+					</div>
+				</div>
+				<img src="http://data.monstercat.com/outlook/avail.svg" class="available">
+			</div>
+		</div>
+		<!-- <div class="top-right"><a href="www.monstercat.com"><h4>Continue to Monstercat.com</h4></a></div> -->
+		</div>
+		
+	<script src="lib/parallax.min.js"></script>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+	<script src="lib/soundcloud.player.api.js"></script>
+	<script src="lib/sc-player.js"></script>
+	<script src="public/script/bootstrap.min.js"></script>
+	<script>
+		var scene = document.getElementById('scene');
+		var parallax = new Parallax(scene);
+	</script>
+	<script>
+      $(window).resize(
+        function () {
+          $('ol.sc-trackslist').css('height', Math.min($(window).width()/2-61, 239) + "px");
+        }
+      );
+	</script>
+	
+     <style id="tehee_secretstuff">
+    /*
+                                 MMM
+                    7.          .MMMM
+                   +MMM..OMMMMMMMMMMM:
+                   OMMMMD~     8MMMMMM
+                   8MMMMM, 7MMMMMMMMMMM+
+                  .MMMMMMMMMMMMMMMMMMM~M,
+                 =MOMMMMMMMMMMMMMMMMMM8MMZ
+                 MM$MMMMMMMMMMMMMMMMMMMMMMM
+                ?M+?MMMMMMMMMMMMMMMMMMMMMMM7
+                ZMMMMMMMMMMMMMMMMMMMMMMMMMMN
+                MMMMMMMMMMMMMM$,. M.  ?MMMM
+                MMMMMMMMMMM~      .   ZMMM
+                MMMMMMMZ  :O          NMO
+                 MMMMMMM          .O .MM. DMMMM.
+                     :MMM:  M .IDMMMMMMMMMMMMMMM.
+                       MMM.:MMMMMMMMMMMMMMMMMMMM7
+                        =MMMMMMMMMMMMMMMMMMMMMMM,
+              ?MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMZ,.
+              MMMMMMMMMMMMMMMMMMMMMMMMMMMM
+              MMMMMMMMMMMMMMMMMMMMMMMMMMMMM
+              OMMMMMMMD=MMMMMMMMMMMMMMMMMMMI
+                =,     NMMMMMM, MMM ,MMMMMM?
+             ..+$$$?=.7MMMMMM:  DMM  .MMMMM.
+            MMMMMMMMMMMMMMMMMDOMMMO   8MMMO.MMMMMZ
+            ,O       .MMMMMMMMMMM.    7MMMMMMMMMMM
+                      MMMMMMM ..      $MMMMMMMMMMM
+                      MMMMMMMI        8MMMMMMMMMMM
+                       MMMMMMM        =MMMMMMO?..
+                       ,MMMMMM:
+                 .MMMMMM:MMMMM7
+                 DMMMMMMMMMMMMM
+                 $MMMMMMMMMMMMMI
+                  MMMMMMMMMMMMD:
+    */
+    </style>
+	</body>
+</html>
